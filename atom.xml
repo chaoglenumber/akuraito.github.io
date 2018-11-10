@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Nexguard</title>
+  
+  <subtitle>年轻人的第一个hexo</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://nexguard.xyz/"/>
+  <updated>2018-11-04T05:31:59.731Z</updated>
+  <id>http://nexguard.xyz/</id>
+  
+  <author>
+    <name>Nexguard</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://nexguard.xyz/2018/11/04/hello-world/"/>
+    <id>http://nexguard.xyz/2018/11/04/hello-world/</id>
+    <published>2018-11-04T05:31:59.761Z</published>
+    <updated>2018-11-04T05:31:59.731Z</updated>
+    
+    <content type="html"><![CDATA[<p>年轻人的第一个hexo</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;年轻人的第一个hexo&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
