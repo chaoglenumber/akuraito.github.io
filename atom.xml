@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://nexguard.xyz/"/>
-  <updated>2018-11-11T03:29:30.262Z</updated>
+  <updated>2018-11-11T09:56:30.143Z</updated>
   <id>https://nexguard.xyz/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="https://nexguard.xyz/2018/11/11/good-good-study/"/>
+    <id>https://nexguard.xyz/2018/11/11/good-good-study/</id>
+    <published>2018-11-11T09:56:30.163Z</published>
+    <updated>2018-11-11T09:56:30.143Z</updated>
+    
+    <content type="html"><![CDATA[<hr><p>title: good-good-study<br>date: 2018-11-11 17:55:43</p><h2 id="tags"><a href="#tags" class="headerlink" title="tags:"></a>tags:</h2><p>望继续努力，高三加油鸭！<br><img src="https://i.loli.net/2018/11/11/5be7fc3ae531f.jpg" alt="某同学.jpg">-</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;hr&gt;
+&lt;p&gt;title: good-good-study&lt;br&gt;date: 2018-11-11 17:55:43&lt;/p&gt;
+&lt;h2 id=&quot;tags&quot;&gt;&lt;a href=&quot;#tags&quot; class=&quot;headerlink&quot; title=&quot;tags:&quot;&gt;&lt;/a&gt;tags:&lt;/h2
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
