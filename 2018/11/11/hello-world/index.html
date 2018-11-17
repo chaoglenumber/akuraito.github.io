@@ -1,71 +1,410 @@
 <!DOCTYPE html>
 
-<html lang="zh-CN">
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<html class="theme-next muse use-motion" lang="zh-CN">
 <head><meta name="generator" content="Hexo 3.8.0">
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-  
-  <title>Hello World [ Nexguard ]</title>
-  
-    <!-- stylesheets list from config.yml -->
-    
-      <link rel="stylesheet" href="/css/iLiKE.css">
-    
-  
-  
-  
-  <script src="//cdn1.lncld.net/static/js/3.1.1/av-min.js"></script>
-    <script id="leancloud">
-      AV.init({
-          appId: "6E5zTbTljdUbVW2WkXPsXGJk-gzGzoHsz",
-          appKey: "0vsyDKfNpeSECAI70J794ugv"
-      });
-    </script>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
 
-</head></html>
-<body>
-    <div class="header">
-        <div class="container">
-    <div class="menu">
-      <div class="menu-left">
-        <a href="/">
-          <img src="/favicon.ico">
-        </a>
-      </div>
-      <div class="menu-right">
-        
-          
-          
-          
-          
-          
-          
-          <a href="/">首页</a>
-        
-          
-          
-          
-          
-          
-          
-          <a href="/archives">归档</a>
-        
-          
-          
-          
-          
-          
-          
-          <a href="/about">关于</a>
-        
-      </div>
+
+
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform">
+<meta http-equiv="Cache-Control" content="no-siteapp">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css">
+
+<link href="/css/main.css?v=6.5.0" rel="stylesheet" type="text/css">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=6.5.0">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=6.5.0">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=6.5.0">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=6.5.0" color="#222">
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Muse',
+    version: '6.5.0',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: false,
+    fastclick: false,
+    lazyload: false,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+  
+
+
+
+
+  <meta name="description" content="前言　　经历了jimdo，手打GitHub和WordPress之后，终于还是换上了hexo，可以看出来博客有着正在向着轻量化发展的趋势，不过随之而来的，是搭建博客所需的基础更高了，虽然各家（指 WordPress 和 hexo）都有自己的开发文档可以帮助你在什么都不懂的情况下快速入门，但不可否认的是，门槛确实在不停地提高。 　　当然也有Bitcorn这样只用设置一次就 OK 的替代品，不过人家在内">
+<meta name="keywords" content="hexo,blog,termux,github">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Hello World">
+<meta property="og:url" content="https://nexguard.xyz/2018/11/11/hello-world/index.html">
+<meta property="og:site_name" content="Nexguard">
+<meta property="og:description" content="前言　　经历了jimdo，手打GitHub和WordPress之后，终于还是换上了hexo，可以看出来博客有着正在向着轻量化发展的趋势，不过随之而来的，是搭建博客所需的基础更高了，虽然各家（指 WordPress 和 hexo）都有自己的开发文档可以帮助你在什么都不懂的情况下快速入门，但不可否认的是，门槛确实在不停地提高。 　　当然也有Bitcorn这样只用设置一次就 OK 的替代品，不过人家在内">
+<meta property="og:locale" content="zh-CN">
+<meta property="og:image" content="https://i.loli.net/2018/11/11/5be7532f8088a.png">
+<meta property="og:image" content="https://i.loli.net/2018/11/11/5be7542dc10da.png">
+<meta property="og:image" content="https://i.loli.net/2018/11/11/5be754c62c9ee.png">
+<meta property="og:image" content="https://i.loli.net/2018/11/11/5be7553b137c2.png">
+<meta property="og:image" content="https://i.loli.net/2018/11/11/5be755c1a05d7.png">
+<meta property="og:image" content="https://i.loli.net/2018/11/11/5be75614adb78.png">
+<meta property="og:image" content="https://i.loli.net/2018/11/11/5be7568870b4f.png">
+<meta property="og:image" content="https://i.loli.net/2018/11/11/5be756887d8b1.png">
+<meta property="og:image" content="https://i.loli.net/2018/11/11/5be756880f8d6.png">
+<meta property="og:image" content="https://i.loli.net/2018/11/11/5be7568859859.png">
+<meta property="og:image" content="https://i.loli.net/2018/11/11/5be75a95e8f44.png">
+<meta property="og:image" content="https://i.loli.net/2018/11/11/5be7614b315a1.png">
+<meta property="og:image" content="https://i.loli.net/2018/11/11/5be7614b0b2ed.png">
+<meta property="og:image" content="https://i.loli.net/2018/11/11/5be761c016aea.png">
+<meta property="og:image" content="https://i.loli.net/2018/11/11/5be762286a964.png">
+<meta property="og:image" content="https://i.loli.net/2018/11/11/5be762862df51.png">
+<meta property="og:updated_time" content="2018-11-11T03:29:30.262Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Hello World">
+<meta name="twitter:description" content="前言　　经历了jimdo，手打GitHub和WordPress之后，终于还是换上了hexo，可以看出来博客有着正在向着轻量化发展的趋势，不过随之而来的，是搭建博客所需的基础更高了，虽然各家（指 WordPress 和 hexo）都有自己的开发文档可以帮助你在什么都不懂的情况下快速入门，但不可否认的是，门槛确实在不停地提高。 　　当然也有Bitcorn这样只用设置一次就 OK 的替代品，不过人家在内">
+<meta name="twitter:image" content="https://i.loli.net/2018/11/11/5be7532f8088a.png">
+
+
+
+  <link rel="alternate" href="/atom.xml" title="Nexguard" type="application/atom+xml">
+
+
+
+
+  <link rel="canonical" href="https://nexguard.xyz/2018/11/11/hello-world/">
+
+
+
+<script type="text/javascript" id="page.configurations">
+  CONFIG.page = {
+    sidebar: "",
+  };
+</script>
+
+  <title>Hello World | Nexguard</title>
+  
+
+
+
+
+
+
+
+
+
+
+
+  <noscript>
+  <style type="text/css">
+    .use-motion .motion-element,
+    .use-motion .brand,
+    .use-motion .menu-item,
+    .sidebar-inner,
+    .use-motion .post-block,
+    .use-motion .pagination,
+    .use-motion .comments,
+    .use-motion .post-header,
+    .use-motion .post-body,
+    .use-motion .collection-title { opacity: initial; }
+
+    .use-motion .logo,
+    .use-motion .site-title,
+    .use-motion .site-subtitle {
+      opacity: initial;
+      top: initial;
+    }
+
+    .use-motion {
+      .logo-line-before i { left: initial; }
+      .logo-line-after i { right: initial; }
+    }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope="" itemtype="http://schema.org/WebPage" lang="zh-CN">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope="" itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Nexguard</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
     </div>
+    
+      
+        <p class="site-subtitle">年轻人的第一个hexo</p>
+      
+    
+  </div>
+
+  <div class="site-nav-toggle">
+    <button aria-label="切换导航栏">
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
 </div>
-    </div>
-    <div class="container">
-        <h1 class="post-title">Hello World</h1>
-<article class="post markdown-style">
-  <h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>　　经历了<a href="https://jimdo.com" target="_blank" rel="noopener">jimdo</a>，手打<a href="https://github.io" target="_blank" rel="noopener">GitHub</a>和<a href="https://cn.wordpress.org/" target="_blank" rel="noopener">WordPress</a>之后，终于还是换上了<a href="https://hexo.io/zh-cn/" target="_blank" rel="noopener">hexo</a>，可以看出来博客有着正在向着轻量化发展的趋势，不过随之而来的，是搭建博客所需的基础更高了，虽然各家（指 WordPress 和 hexo）都有自己的开发文档可以帮助你在什么都不懂的情况下快速入门，但不可否认的是，门槛确实在不停地提高。</p>
+
+
+
+<nav class="site-nav">
+  
+    <ul id="menu" class="menu">
+      
+        
+        
+        
+          
+          <li class="menu-item menu-item-home">
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/" rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i> <br>首页</a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-archives">
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br>归档</a>
+
+  </li>
+
+      
+      
+    </ul>
+  
+
+  
+    
+
+  
+
+  
+</nav>
+
+
+
+  
+
+
+
+</div>
+    </header>
+
+    
+
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://nexguard.xyz/2018/11/11/hello-world/">
+
+    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Nexguard">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Nexguard">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">Hello World
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2018-11-11 07:29:05 / 修改时间：11:29:30" itemprop="dateCreated datePublished" datetime="2018-11-11T07:29:05+08:00">2018-11-11</time>
+            
+
+            
+              
+
+              
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>　　经历了<a href="https://jimdo.com" target="_blank" rel="noopener">jimdo</a>，手打<a href="https://github.io" target="_blank" rel="noopener">GitHub</a>和<a href="https://cn.wordpress.org/" target="_blank" rel="noopener">WordPress</a>之后，终于还是换上了<a href="https://hexo.io/zh-cn/" target="_blank" rel="noopener">hexo</a>，可以看出来博客有着正在向着轻量化发展的趋势，不过随之而来的，是搭建博客所需的基础更高了，虽然各家（指 WordPress 和 hexo）都有自己的开发文档可以帮助你在什么都不懂的情况下快速入门，但不可否认的是，门槛确实在不停地提高。</p>
 <p>　　当然也有<a href="https://www.bitcron.com/" target="_blank" rel="noopener">Bitcorn</a>这样只用设置一次就 OK 的替代品，不过人家在内测，而且我也没有电脑，遂放弃，继续我的 hexo 之旅。</p>
 <p>　　随着手机性能的不断提升，手机编程成为了可能，在此之前，我的 jimdo，GitHub 和 WordPress 都是在手机上完成的，<del>虽然这并不算编程</del>，不过我一直都在致力于提升        <del>姿势</del> 知识水平，希望能开发出新的技能，在一番误打误撞之后，发现了<a href="https://termux.com/" target="_blank" rel="noopener">Termux</a>。</p>
 <h1 id="Termux"><a href="#Termux" class="headerlink" title="Termux"></a>Termux</h1><p>　　目前对我来说只有一个作用：hexo，虽说应该算做是大材小用了，不过对于一个起步非常晚的高中生来说，还是写好自己的 hexo 就 ok。</p>
@@ -153,172 +492,385 @@
 <p>　　最后出现<code>INFO Deploy done：git</code>即为成功</p>
 <h1 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h1><p>　　<a href="https://www.sqlsec.com/2018/05/termux.html" target="_blank" rel="noopener">Termux 高级终端安装使用配置教程 | 国光</a><br>　　<a href="https://hexo.io/zh-cn/docs/" target="_blank" rel="noopener">文档 | Hexo</a><br>　　及百度、bing，请善用搜索引擎。</p>
 
-</article>
-
-    <div class="pagenator post-pagenator">
-    
-    
-
-    
-    <p>上次更新 2018-11-11</p>
-    
-    
-        <a class="extend next post-next" href="/2018/10/28/web-build/">下一篇</a>
-    
+      
     </div>
 
+    
+
+    
+    
+    
+
+    
+
+    
+       
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/hexo/" rel="tag"># hexo</a>
+          
+            <a href="/tags/blog/" rel="tag"># blog</a>
+          
+            <a href="/tags/termux/" rel="tag"># termux</a>
+          
+            <a href="/tags/github/" rel="tag"># github</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2018/10/28/web-build/" rel="next" title="简记我的网站搭建历程">
+                <i class="fa fa-chevron-left"></i> 简记我的网站搭建历程
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+  </div>
+
+
+          </div>
+          
+
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
     </div>
-    <div class="footer">
-        <div class="container">
-    <div class="social">
-	<ul class="social-list">
-		
-			
-				
-				
-				<li>
-					<a href="mailto:nexguard@nexguard.xyz" title="email" target="_blank">
-					<i class="fa fa-email"></i>
-					</a>
-				</li>
-			
-		
-			
-		
-			
-		
-			
-		
-			
-		
-			
-		
-			
-				
-				<li>
-					<a href="https://github.com/nexguard" title="github" target="_self">
-					<i class="fa fa-github"></i>
-					</a>
-				</li>
-			
-		
-			
-				
-				<li>
-					<a href="https://m.weibo.cn/u/5711008314" title="weibo" target="_self">
-					<i class="fa fa-weibo"></i>
-					</a>
-				</li>
-			
-		
-			
-		
-			
-				
-				<li>
-					<a href="http://www.zhihu.com/people/cjlh" title="zhihu" target="_self">
-					<i class="fa fa-zhihu"></i>
-					</a>
-				</li>
-			
-		
-			
-				
-				<li>
-					<a href="https://www.jianshu.com/u/48300c471d4d" title="jianshu" target="_self">
-					<i class="fa fa-jianshu"></i>
-					</a>
-				</li>
-			
-		
-			
-		
-			
-		
-			
-		
-	</ul>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+            
+              <p class="site-author-name" itemprop="name">Nexguard</p>
+              <p class="site-description motion-element" itemprop="description"></p>
+          </div>
+
+          
+            <nav class="site-state motion-element">
+              
+                <div class="site-state-item site-state-posts">
+                
+                  <a href="/archives/">
+                
+                    <span class="site-state-item-count">2</span>
+                    <span class="site-state-item-name">日志</span>
+                  </a>
+                </div>
+              
+
+              
+
+              
+                
+                
+                <div class="site-state-item site-state-tags">
+                  
+                    
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">6</span>
+                    <span class="site-state-item-name">标签</span>
+                  
+                </div>
+              
+            </nav>
+          
+
+          
+            <div class="feed-link motion-element">
+              <a href="/atom.xml" rel="alternate">
+                <i class="fa fa-rss"></i>
+                RSS
+              </a>
+            </div>
+          
+
+          
+
+          
+
+          
+          
+
+          
+            
+          
+          
+
+        </div>
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#前言"><span class="nav-number">1.</span> <span class="nav-text">前言</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Termux"><span class="nav-number">2.</span> <span class="nav-text">Termux</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#代码如诗"><span class="nav-number">2.1.</span> <span class="nav-text">代码如诗</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#换国内源"><span class="nav-number">2.1.1.</span> <span class="nav-text">换国内源</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#添加-vim-编辑器中的中文显示支持"><span class="nav-number">2.1.2.</span> <span class="nav-text">添加 vim 编辑器中的中文显示支持</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#安装-hexo"><span class="nav-number">2.1.3.</span> <span class="nav-text">安装 hexo</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#发布到-GitHub"><span class="nav-number">2.1.4.</span> <span class="nav-text">发布到 GitHub</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#开始push"><span class="nav-number">2.1.5.</span> <span class="nav-text">开始push</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#参考"><span class="nav-number">3.</span> <span class="nav-text">参考</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2018</span>
+  <span class="with-love" id="animate">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Nexguard</span>
+
+  
+
+  
 </div>
-    <div class="copyright">
-        <span>
-            
-            
-            
-                © Nexguard 2015 - 2018
-            
-        </span>
-    </div>
-    <div class="power">
-        <span>
-            Powered by <a href="https://hexo.io">Hexo</a> & <a href="https://github.com/CaiChenghan/iLiKE">iLiKE Theme</a>
-        </span>
-    </div>
-    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script>
-    <!--page counter part-->
-<script>
-function addCount (Counter) {
-    url=$('.article-date').attr('href').trim();
-    title = $('.article-title').text().trim();
-    var query = new AV.Query(Counter);
-    //use url as unique idnetfication
-    query.equalTo("url",url);
-    query.find({
-        success: function(results) {
-            if (results.length>0) {
-                var counter=results[0];
-                counter.fetchWhenSave(true); //get recent result
-                counter.increment("time");
-                counter.save();
-            } else {
-                var newcounter=new Counter();
-                newcounter.set("title",title);
-                newcounter.set("url",url);
-                newcounter.set("time",1);
-                newcounter.save(null,{
-                    success: function(newcounter) {
-                        //alert('New object created');
-                    }, error: function(newcounter,error) {
-                        alert('Failed to create');
-                    }
-                })
-            }
-        },
-        error: function(error) {
-            //find null is not a error
-            alert('Error:'+error.code+" "+error.message);
-        }
-    });
-}
-$(function() {
-    var Counter=AV.Object.extend("Counter");
-    //only increse visit counting when intering a page
-    if ($('.article-title').length == 1) {
-       addCount(Counter);
-    }
-    var query=new AV.Query(Counter);
-    query.descending("time");
-    // the sum of popular posts
-    query.limit(10); 
-    query.find({
-        success: function(results) {
-                for(var i=0;i<results.length;i++) {
-                    var counter=results[i];
-                    title=counter.get("title");
-                    url=counter.get("url");
-                    time=counter.get("time");
-                    // add to the popularlist widget
-                    showcontent=title+" ("+time+")";
-                    //notice the "" in href
-                    $('.popularlist').append('<li><a href="'+url+'">'+showcontent+'</a></li>');
-                }
-            },
-        error: function(error) {
-            alert("Error:"+error.code+" "+error.message);
-        }
-    });
-});
+
+
+  <div class="powered-by">由 <a href="https://hexo.io" class="theme-link" rel="noopener" target="_blank">Hexo</a> 强力驱动 v3.8.0</div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">主题 – <a href="https://theme-next.org" class="theme-link" rel="noopener" target="_blank">NexT.Muse</a> v6.5.0</div>
+
+
+
+
+        
+
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+	
+    
+
+    
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
 </script>
-</div>
-    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=6.5.0"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=6.5.0"></script>
+
+
+
+  
+  
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=6.5.0"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=6.5.0"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=6.5.0"></script>
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
 </body>
 </html>
