@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://nexguard.xyz/"/>
-  <updated>2018-11-11T07:00:00.000Z</updated>
+  <updated>2018-11-18T06:31:39.780Z</updated>
   <id>https://nexguard.xyz/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>也许，大概？</title>
+    <link href="https://nexguard.xyz/2018/11/18/new-starting/"/>
+    <id>https://nexguard.xyz/2018/11/18/new-starting/</id>
+    <published>2018-11-18T06:28:42.000Z</published>
+    <updated>2018-11-18T06:31:39.780Z</updated>
+    
+    <content type="html"><![CDATA[<span itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject"><img itemprop="url image" src="/https://i.loli.net/2018/11/18/5bf0f9041baf3.jpg" class="full-image" alt="head" title="无聊"><meta itemprop="width" content="auto"><meta itemprop="height" content="auto"></span><a id="more"></a><h1 id="缘起"><a href="#缘起" class="headerlink" title="缘起"></a>缘起</h1><p>　　说起来高三也已经很久了，一直没有写 blog，总是说在尝试新的方式，其实就是不想写，之前手动复制<code>jimdo</code>成<code>html</code>的时候可能就想过要不要直接关掉<code>jimdo</code>算了，但还是不忍心，毕竟单现在的<code>jimdo</code>域名就快有两年的历史了，所以，还是留个纪念吧，曾经的一断美好时光。之后可能连<code>耻物</code>也要删干净，与愉快的高二挥手告别，如此而已。</p><p>　　也在弄<code>WordPress</code>和<code>hexo</code>虽然说 WordPress 交了学费，但还是 hexo 更适合<del>报错</del>玩一点，找个时间换成 next 的主题😁。WP 和 hexo 都是十分的适合折腾，只不过 WP 中文基本上已经凉了。</p><p>　　<img src="https://i.loli.net/2018/11/18/5bf0fee98bc12.png" alt="WP-ch"></p><p>　　而且我免费服务器体验不佳。</p><ul><li><p>[ ] 也许等我 hexo 玩腻之后会给<code>WordPress</code>做下优化。</p></li><li><p>[x] 不过现在看见一堆 hexo 的 npm 命令就头疼，找个时间折个纸飞机试试？</p></li><li><p>[x] 还有<code>GitHub</code>万恶的丢包率(ーー;)。</p></li><li><p>[x] 看一下<code>Linux</code>的复制是怎么弄的。</p></li></ul><p>　　现在<code>Termux</code>占着我的文件管理器的目录，整个人都不好了。</p><p><img src="https://i.loli.net/2018/11/18/5bf10151e8450.png" alt="Termux-sit"></p><p>　　虽然经常用到的文件夹在 termux 里面也有软链，不过总感觉缺了点什么。目前，能用就行。</p><p>　　博客以后可能依然是少量更新，主要看什么时候有空，现在还是希望能好好学习，一直没有什么状态。</p><p>　　那么<em>さようなら,ルルーシュ </em><del>心存感激，心怀远方</del>。</p><p>　　感觉在现在的中国，文科生弄这个东西纯粹就是全凭兴趣了，之前还有人问我是不是电信院的，假装大学生真好玩.jpg，虽说网上一堆的教程，但具体用<code>Termux</code>搭<code>hexo</code>我应该还算是第一个？<em>也许？</em>，目前看来还算是简单，<code>复制报错信息</code>→<code>打开百度</code>→<code>粘贴并搜索</code>→<code>陷入自闭</code>。感觉变化最大的应该是<code>GitHub</code>，之前还可以直接应用主题，现在只能<code>hexo g -d</code></p><p>　　<strong>希望能够开开心心</strong></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;span itemprop=&quot;image&quot; itemscope=&quot;&quot; itemtype=&quot;http://schema.org/ImageObject&quot;&gt;&lt;img itemprop=&quot;url image&quot; src=&quot;/https://i.loli.net/2018/11/18/5bf0f9041baf3.jpg&quot; class=&quot;full-image&quot; alt=&quot;head&quot; title=&quot;无聊&quot;&gt;&lt;meta itemprop=&quot;width&quot; content=&quot;auto&quot;&gt;&lt;meta itemprop=&quot;height&quot; content=&quot;auto&quot;&gt;&lt;/span&gt;
+    
+    </summary>
+    
+    
+      <category term="blog" scheme="https://nexguard.xyz/tags/blog/"/>
+    
+      <category term="2018" scheme="https://nexguard.xyz/tags/2018/"/>
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
@@ -34,17 +56,17 @@
     </summary>
     
     
-      <category term="hexo" scheme="https://nexguard.xyz/tags/hexo/"/>
-    
       <category term="blog" scheme="https://nexguard.xyz/tags/blog/"/>
+    
+      <category term="2018" scheme="https://nexguard.xyz/tags/2018/"/>
+    
+      <category term="hexo" scheme="https://nexguard.xyz/tags/hexo/"/>
     
       <category term="web" scheme="https://nexguard.xyz/tags/web/"/>
     
       <category term="termux" scheme="https://nexguard.xyz/tags/termux/"/>
     
       <category term="github" scheme="https://nexguard.xyz/tags/github/"/>
-    
-      <category term="2018" scheme="https://nexguard.xyz/tags/2018/"/>
     
   </entry>
   
@@ -67,9 +89,9 @@
     
       <category term="blog" scheme="https://nexguard.xyz/tags/blog/"/>
     
-      <category term="web" scheme="https://nexguard.xyz/tags/web/"/>
-    
       <category term="2018" scheme="https://nexguard.xyz/tags/2018/"/>
+    
+      <category term="web" scheme="https://nexguard.xyz/tags/web/"/>
     
   </entry>
   
