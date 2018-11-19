@@ -82,17 +82,17 @@
     </summary>
     
     
+      <category term="hexo" scheme="https://nexguard.xyz/tags/hexo/"/>
+    
       <category term="blog" scheme="https://nexguard.xyz/tags/blog/"/>
     
-      <category term="2018" scheme="https://nexguard.xyz/tags/2018/"/>
-    
       <category term="web" scheme="https://nexguard.xyz/tags/web/"/>
-    
-      <category term="hexo" scheme="https://nexguard.xyz/tags/hexo/"/>
     
       <category term="termux" scheme="https://nexguard.xyz/tags/termux/"/>
     
       <category term="github" scheme="https://nexguard.xyz/tags/github/"/>
+    
+      <category term="2018" scheme="https://nexguard.xyz/tags/2018/"/>
     
   </entry>
   
@@ -115,9 +115,9 @@
     
       <category term="blog" scheme="https://nexguard.xyz/tags/blog/"/>
     
-      <category term="2018" scheme="https://nexguard.xyz/tags/2018/"/>
-    
       <category term="web" scheme="https://nexguard.xyz/tags/web/"/>
+    
+      <category term="2018" scheme="https://nexguard.xyz/tags/2018/"/>
     
   </entry>
   
