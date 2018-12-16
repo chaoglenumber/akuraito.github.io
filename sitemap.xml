@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://nexguard.xyz/2018/11/11/hello-world/</loc>
+    
+    <lastmod>2018-12-16T07:00:00.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://nexguard.xyz/404.html</loc>
     
     <lastmod>2018-12-08T18:14:08.748Z</lastmod>
@@ -26,13 +33,6 @@
     <loc>https://nexguard.xyz/tags/index.html</loc>
     
     <lastmod>2018-11-17T16:21:15.768Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://nexguard.xyz/2018/11/11/hello-world/</loc>
-    
-    <lastmod>2018-11-11T07:00:00.000Z</lastmod>
     
   </url>
   
