@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://nexguard.xyz/manifest.json</loc>
+    
+    <lastmod>2018-12-30T21:05:58.980Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://nexguard.xyz/2018-11-19-winter-trip.html</loc>
     
     <lastmod>2018-12-30T12:54:14.015Z</lastmod>
