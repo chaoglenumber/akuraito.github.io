@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://nexguard.xyz/"/>
-  <updated>2018-12-30T13:55:42.006Z</updated>
+  <updated>2018-12-30T12:54:14.015Z</updated>
   <id>https://nexguard.xyz/</id>
   
   <author>
@@ -15,27 +15,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>test</title>
-    <link href="https://nexguard.xyz/2018-12-30-test.html"/>
-    <id>https://nexguard.xyz/2018-12-30-test.html</id>
-    <published>2018-12-30T13:55:04.000Z</published>
-    <updated>2018-12-30T13:55:42.006Z</updated>
-    
-    <content type="html"><![CDATA[<!-- build time:Sun Dec 30 2018 21:55:58 GMT+0800 (Central Standard Time) --><p><strong>hi</strong></p><!-- rebuild by neat -->]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;!-- build time:Sun Dec 30 2018 21:55:58 GMT+0800 (Central Standard Time) --&gt;&lt;p&gt;&lt;strong&gt;hi&lt;/strong&gt;&lt;/p&gt;&lt;!-- rebuild by neat --&gt;
-      
-    
-    </summary>
-    
-    
-  </entry>
   
   <entry>
     <title>冬游</title>
