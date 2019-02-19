@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://nexguard.xyz/manifest.json</loc>
+    
+    <lastmod>2019-02-19T10:24:56.303Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://nexguard.xyz/essay/2019-02-19-add-crisp.html</loc>
     
     <lastmod>2019-02-19T08:56:00.000Z</lastmod>
@@ -33,13 +40,6 @@
     <loc>https://nexguard.xyz/404/index.html</loc>
     
     <lastmod>2019-01-06T08:50:05.476Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://nexguard.xyz/manifest.json</loc>
-    
-    <lastmod>2018-12-31T13:39:01.265Z</lastmod>
     
   </url>
   
