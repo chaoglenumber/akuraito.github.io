@@ -16,9 +16,8 @@ Disallow: /vendors/
 Disallow: /fancybox/
 Disallow: /lib/
 
-Sitemap: https://nexguard.xyz/search.xml
-Sitemap: https://nexguard.xyz/sitemap.xml
-Sitemap: https://nexguard.xyz/baidusitemap.xml
+Sitemap: https://404gle.cn/search.xml
+Sitemap: https://r04gle.cn/sitemap.xml
 
-那么，现在最喜欢的人是？
---是我。
+# Q:那么，现在最喜欢的人是？
+# A:是我。
