@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://404gle.cn/404.html</loc>
+    
+    <lastmod>2019-06-12T03:07:19.213Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://404gle.cn/essay/2019-05-19-hugo-on-termux-tslt.html</loc>
     
     <lastmod>2019-05-19T00:00:00.000Z</lastmod>
@@ -33,13 +40,6 @@
     <loc>https://404gle.cn/manifest.json</loc>
     
     <lastmod>2019-04-05T04:35:28.517Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://404gle.cn/404.html</loc>
-    
-    <lastmod>2019-03-30T16:40:12.560Z</lastmod>
     
   </url>
   
