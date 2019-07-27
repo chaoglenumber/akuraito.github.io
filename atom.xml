@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://404gle.cn/"/>
-  <updated>2019-07-12T12:44:00.000Z</updated>
+  <updated>2019-07-27T07:31:00.000Z</updated>
   <id>https://404gle.cn/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>换个大厂① - Yandex网页邮箱</title>
+    <link href="https://404gle.cn/essay/2019-07-27-yandex-mail.html"/>
+    <id>https://404gle.cn/essay/2019-07-27-yandex-mail.html</id>
+    <published>2019-07-27T05:07:00.000Z</published>
+    <updated>2019-07-27T07:31:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<!-- build time:Sat Jul 27 2019 15:35:25 GMT+0800 (Central Standard Time) --><p>相信还是有人对国内的互联网巨头颇有微词，它们或多或少的损害了用户的利益，也有人尝试逃离到谷歌、微软等公司提供的服务，但由于审查制度和各公司的本土化政策等原因，许多产品的使用不如人意，<a id="more"></a>但这并不意味着它们就一无是处。比如邮箱，在功能都差不多的情况下，本地化就显得并不是那么的重要了。</p><h1 id="外观"><a href="#外观" class="headerlink" title="外观"></a>外观</h1><p>相比于国内邮箱的各种广告，无论是 Gmail 还是Yandex mail 都显得干净了不少，Yandex 邮箱只有在移动版侧栏下方会有移动端的广告，此外并未在其他地方找到广告。</p><p><img src="https://i.loli.net/2019/07/27/5d3be6fc47c2d96314.png" alt=""></p><p>对于移动版，操作的顺滑度也是一大特色。（熟悉的感觉</p><p><img src="https://i.loli.net/2019/07/27/5d3bea8adef2329608.gif" alt=""></p><p>邮件显示，尤其是来自特殊地区的邮件，显示会好很多。</p><p><img src="https://i.loli.net/2019/07/27/5d3bfcf49691866674.png" alt=""></p><p>此外，主题、分类、标记、聊天室模式等功能也不输国内同类产品。</p><h1 id="连通性"><a href="#连通性" class="headerlink" title="连通性"></a>连通性</h1><p>在国内，延迟确实是一个问题，速度肯定比不上国内应用，不过鉴于邮箱的特殊性，这点差别还可以忍受。</p><h1 id="Yandex"><a href="#Yandex" class="headerlink" title="Yandex"></a>Yandex</h1><p>由于 Yandex mail 是 Yandex 生态圈的一部分，所以与其他 Yandex 软件的配合也是十分紧密。打开 Yandex 搜索即可在首页看见新邮件数，邮件中的附件可以直接保存到 Yandex.Disk ，直接打开 Yandex 地图等。最重要的是，所有的操作，都能只在浏览器里完成。</p><h1 id="PWA"><a href="#PWA" class="headerlink" title="PWA"></a>PWA</h1><p>虽然说 Yandex mail 支持 pwa ，不过并不适合使用。在支持的浏览器中，还可以打开设置中的提醒。</p><h1 id="IMAP"><a href="#IMAP" class="headerlink" title="IMAP"></a>IMAP</h1><p>运用好 IMAP 就可以直接在 Yandex mail 上面收发其他邮箱的消息，官方提供支持的有：Gmail、Mail.ru、Outlook ，直接点击授权就好了。对于其他的邮箱就需要用到 IMAP 了，邮箱服务一般都会给出 IMAP 服务器的地址，有些邮箱会提供专用密码，填上去就好了。丢一个🌰：<img src="https://i.loli.net/2019/07/27/5d3bfb468a6d517778.png" alt=""></p><!-- rebuild by neat -->]]></content>
+    
+    <summary type="html">
+    
+      &lt;!-- build time:Sat Jul 27 2019 15:35:25 GMT+0800 (Central Standard Time) --&gt;&lt;p&gt;相信还是有人对国内的互联网巨头颇有微词，它们或多或少的损害了用户的利益，也有人尝试逃离到谷歌、微软等公司提供的服务，但由于审查制度和各公司的本土化政策等原因，许多产品的使用不如人意，
+    
+    </summary>
+    
+      <category term="折腾" scheme="https://404gle.cn/categories/%E6%8A%98%E8%85%BE/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>番剧、动画，细数青春</title>
