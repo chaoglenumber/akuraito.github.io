@@ -17,7 +17,7 @@ Disallow: /fancybox/
 Disallow: /lib/
 
 Sitemap: https://404gle.cn/search.xml
-Sitemap: https://r04gle.cn/sitemap.xml
+Sitemap: https://404gle.cn/sitemap.xml
 
 # Q:那么，现在最喜欢的人是？
 # A:是我。
